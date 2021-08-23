@@ -90,17 +90,17 @@ indexbtn:
   enable: true
   name: Github
   icon: fa-github-alt
-  url: https://github.com/godweiyang
+  url: https://github.com/hazxel
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  qq: 792321264
-  github: godweiyang
-  weibo: godweiyang
-  email: godweiyang@gmail.com
-  zhihu: godweiyang
+  qq: 858394123
+  github: hazxel
+  weibo: 7509192991
+  email: steven.b.zhou@foxmail.com
+  zhihu: # zhou-bo-yan-46
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -166,8 +166,8 @@ text:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatars/avatar.jpg
-  career: 华东师范大学 | 计算机科学与技术 | AntNLP
-  introduction: 我是华东师范大学计算机科学与技术专业2018级硕士研究生。直研进入本校计算机系攻读硕士，研究方向是深度学习与自然语言处理。我们实验室是AntNLP，欢迎大家报考！欢迎关注我的微信公众号「算法码上来」，干货每天不错过！
+  career:  Nanjing University | Electrical Engineering | Tencect
+  introduction: Graduated form Nanjing University, Electrical Engineering Department, 2020, then began career at Tencent.
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -180,11 +180,11 @@ myProjects:
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
       url: https://github.com/godweiyang/hexo-matery-modified
       desc: 我的个性化配置过的博客源码，即下即用。
-    Span-Linearization-Parser:
+    ConParser:
         icon: fa-database
         iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-        url: https://github.com/AntNLP/span-linearization-parser
-        desc: 基于PyTorch的成分句法分析模型，ACL2020论文源码。
+        url: https://github.com/godweiyang/ConParser
+        desc: 基于dynet的成分句法分析模型整合。
     ECNU-BeamerTemplate:
         icon: fa-file-text-o
         iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
@@ -240,12 +240,12 @@ postCalendar: true
 # Gitalk 评论模块的配置，默认为不激活
 gitalk:
   enable: true
-  owner: godweiyang
-  repo: godweiyang.github.io
+  owner: hazxel
+  repo: hazxel.github.io
   oauth:
-    clientId: 查教程获取
-    clientSecret: 查教程获取
-  admin: godweiyang
+    clientId: 9f4768f05eb0694839eb  # gitalk配置，需要填写
+    clientSecret: 5c7d41c3ea7aacf89d1b1da89b59f81ef2d5d54e  # gitalk配置，需要填写
+  admin: hazxel
 
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活
@@ -274,8 +274,8 @@ livere:
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
   enable: true
-  appId: 查教程获取
-  appKey: 查教程获取
+  appId:  # valine配置，需要填写
+  appKey:   # valine配置，需要填写
   notify: false
   verify: false
   visitor: false
@@ -312,7 +312,7 @@ busuanziStatistics:
 # 添加 Google Analytics 配置
 googleAnalytics:
   enable: true
-  id: 查教程获取
+  id:   # 谷歌统计的id
 
 # The used front-end library can be replaced with the corresponding CDN address as needed,
 # If the specific version is not specified below, you can use the latest version.
